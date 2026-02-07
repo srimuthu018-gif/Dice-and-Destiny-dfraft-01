@@ -1,0 +1,31 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+.layout {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#board {
+  width: 600px;
+}
+
+#boardImage {
+  width: 100%;
+}
+
+#sidebar {
+  width: 260px;
+  border: 2px solid #000;
+  padding: 10px;
+  text-align: left;
+}
+
+button {
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
